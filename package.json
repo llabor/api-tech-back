@@ -1,0 +1,31 @@
+{
+  "name": "colapi",
+  "version": "2.0.0",
+  "description": "API TechU Colombia 1Ed",
+  "main": "server_v2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon server_v2.js",
+    "start-prod" : "node server_v2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "bitbucket"
+  },
+  "keywords": [
+    "API",
+    "TechU",
+    "Colombia",
+    "Practitioner",
+    "BBVA"
+  ],
+  "author": "Ezequiel Llarena Borges",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "request-json": "^0.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}
