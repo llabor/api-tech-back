@@ -14,4 +14,5 @@ ADD . /docker-api
 EXPOSE 3000
 
 # Lanzar comandos para ejecutar nuesta app
-CMD ["npm", "start"]
+# CMD ["npm", "start"]
+CMD ["npm", "run", "prod"]
