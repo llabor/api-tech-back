@@ -8,7 +8,7 @@ var URLbase = "/colapi/v3/";
 var newID = 0;
 
 var baseMLabURL = 'https://api.mlab.com/api/1/databases/apitechuelb5ed/collections/';
-const apikeyMLab = 'apiKey=NQCR6_EMDAdqyM6VEWg3scF_k32uwvHF';
+const apikeyMLab = 'apiKey=';
 
 app.use(bodyParser.json());
 app.listen(port, function(){
